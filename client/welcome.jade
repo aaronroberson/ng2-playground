@@ -1,0 +1,14 @@
+h1 Welcome to Angular2 Meteor!
+    small.pull-right by Paul Bastowski 123
+
+.panel.panel-default
+    .panel-title.panel-heading Tests
+    .panel-body
+        //p {{ items | json }}
+        div(*ngIf="!hideit")
+            p(*ngFor="#item of items") {{ item | json }}
+
+button(on-click="hideit=true") Hide
+button(on-click="hideit=false") Show
+
+p welcome: {{ welcome }}
