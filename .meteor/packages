@@ -16,10 +16,12 @@ es5-shim                # ECMAScript 5 compatibility for older browsers.
 
 autopublish             # Publish all data to the clients (for prototyping)
 insecure                # Allow all DB writes from clients (for prototyping)
-pbastowski:typescript
+#pbastowski:typescript
 blaze-html-templates
 twbs:bootstrap
-pbastowski:angular2
+#pbastowski:angular2
 pbastowski:systemjs
-pbastowski:angular-babel
+#pbastowski:angular-babel
 check
+aaronroberson:angular2-babel
+aaronroberson:templates
